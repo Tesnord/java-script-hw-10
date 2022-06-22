@@ -1,3 +1,16 @@
+import products from './menu.json'
+import cards from './template/card.hbs'
+// console.log(card(items));
+
+const cardList = document.querySelector('.js-menu');
+const cardProduct = createCard(products)
+
+cardList.insertAdjacentHTML('beforeend', cardProduct)
+
+function createCard(products) {
+  return products.map(cards).join('');
+}
+
 const Theme = {
   LIGHT: 'light-theme',
   DARK: 'dark-theme',

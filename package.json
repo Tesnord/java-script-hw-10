@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "",
+  "homepage": "https://github.com/Tesnord/java-script-hw-10.git",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /java-script-hw-10.git"
@@ -15,6 +15,7 @@
   "author": "Tesnord <Tesnord.95@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.7.7",
     "modern-normalize": "^1.1.0"
   },
   "devDependencies": {
